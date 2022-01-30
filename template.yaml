@@ -12,7 +12,7 @@ Resources:
   DropTheRopesFunction:
     Type: AWS::Serverless::Function 
     Properties:
-      CodeUri: drop_the_roptes/
+      CodeUri: drop_the_ropes/
       Handler: app.lambda_handler
       Runtime: python3.9
       Architectures:
